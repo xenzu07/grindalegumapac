@@ -496,3 +496,165 @@ section {
     font-size: 1.3rem;
   }
 }
+
+@media(max-width: 480px) {
+  /* Header */
+  .header {
+    padding: 1rem 5%;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .navbar a {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+  }
+
+  #menu-icon {
+    font-size: 2.5rem;
+  }
+
+  /* Home Section */
+  .home {
+    flex-direction: column-reverse;
+    margin: 3rem 0;
+    gap: 2rem;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+
+  .home-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .home-content p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .home-img img {
+    width: 80vw;
+    margin-top: 2rem;
+  }
+
+  /* About Section */
+  .about {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 4rem 5%;
+  }
+
+  .about h2 {
+    font-size: 5rem;
+  }
+
+  .about-vid video {
+    width: 85vw;
+  }
+
+  .about-content p {
+    font-size: 1.3rem;
+  }
+
+  .about-content .btn {
+    font-size: 1.5rem;
+  }
+
+  /* Family Section */
+  .family {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 4rem 5%;
+  }
+
+  .family h2 {
+    font-size: 4rem;
+  }
+
+  .family-img img {
+    width: 90vw;
+  }
+
+  .family-content p {
+    font-size: 1.3rem;
+  }
+
+  /* Favorites Section */
+  .favorites h2 {
+    font-size: 5rem;
+  }
+
+  .favorites .card-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #680075;
+    border: solid #680075;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .card-content p {
+    font-size: 1.2rem;
+  }
+
+  .card-content .btn {
+    font-size: 1.5rem;
+  }
+
+  /* Contact Form */
+  .contact form {
+    flex-direction: column;
+    padding: 3rem 5%;
+  }
+
+  .contact form .input-box input,
+  .contact form textarea {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .contact form .input-group-2 {
+    margin-top: 1rem;
+  }
+
+  .contact form .input-box input,
+  .contact form textarea {
+    margin: 1rem 0;
+  }
+
+  /* Footer */
+  .footer .social-icons a {
+    font-size: 2rem;
+  }
+
+  .footer ul {
+    font-size: 1.5rem;
+  }
+
+  .footer ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+}
